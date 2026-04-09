@@ -195,9 +195,9 @@ const Hero = () => {
 
 const Ecosystem = () => {
   const items = [
-    { id: "agent-1", name: "Interview AI", link: "https://interview-ai-2jf6.onrender.com/login", task: "." },
-    { id: "agent-2", name: "AI Career Coach", link: "https://example.com", task: ".", featured: true },
-    // { id: "agent-3", name: "AI Agent 3", link: "https://example.com", task: "Description of the AI agent." },
+    { id: "agent-1", name: "Interview AI", link: "https://interview-ai-2jf6.onrender.com/login", task: "Technical Questions, Behavioral Questions, Preparation Road Map, Generate Resume, build a winning strategy." },
+    { id: "agent-2", name: "AI Career Coach", link: "https://ai-career-coach-mj.vercel.app/", task: "Build Resume, Cover Letter, Interview Prep, Industry Insights.", featured: true },
+    { id: "agent-3", name: "Interview IO", link: "https://example.com", task: "Coming Soon." },
     // { id: "agent-4", name: "AI Agent 4", link: "https://example.com", task: "Description of the AI agent." },
     // { id: "agent-5", name: "AI Agent 5", link: "https://example.com", task: "Description of the AI agent." },
   ];
