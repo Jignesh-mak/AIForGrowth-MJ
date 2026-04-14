@@ -195,11 +195,10 @@ const Hero = () => {
 
 const Ecosystem = () => {
   const items = [
-    { id: "agent-1", name: "Interview AI", link: "https://interview-ai-2jf6.onrender.com/login", task: "Technical Questions, Behavioral Questions, Preparation Road Map, Generate Resume, build a winning strategy." },
-    { id: "agent-2", name: "AI Career Coach", link: "https://ai-career-coach-mj.vercel.app/", task: "Build Resume, Cover Letter, Interview Prep, Industry Insights.", featured: true },
-    { id: "agent-3", name: "Interview IO", link: "https://example.com", task: "Coming Soon." },
-    // { id: "agent-4", name: "AI Agent 4", link: "https://example.com", task: "Description of the AI agent." },
-    // { id: "agent-5", name: "AI Agent 5", link: "https://example.com", task: "Description of the AI agent." },
+    { id: "agent-1", name: "Interview AI", link: "https://interview-ai-2jf6.onrender.com/login", task: "Technical questions, behavioral questions, preparation road map, generate resume, build a winning strategy." },
+    { id: "agent-2", name: "AI Career Coach", link: "https://ai-career-coach-mj.vercel.app", task: "Advance your career with personalized guidance, interview prep, and AI-powered tools for job success.", featured: true },
+    { id: "agent-3", name: "Interview IQ", link: "https://interviewiq-ai-mj.onrender.com", task: "AI-powered interview preparation platform designed to improve communication skills, technical depth and professional confidence." },
+    { id: "agent-4", name: "AI Resume Analyzer", link: "https://example.com", task: "Will return in doomsday." }
   ];
 
   const [loadingStates, setLoadingStates] = useState<Record<string, boolean>>({});
